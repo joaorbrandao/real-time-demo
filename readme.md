@@ -1,6 +1,13 @@
 # Real Time Demo
 This is a basic Laravel project to show how you can setup a real time system.
 
+## Setup
+```bash
+composer install
+npm install
+npm run dev
+```
+
 ## Test
 ```bash
 # Unix Terminal 1
