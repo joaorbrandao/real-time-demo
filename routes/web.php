@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::group(['prefix' => 'fire'], function () {
-    Route::get('hello-world', function () {
-        broadcast(new HelloWorldFired());
+    Route::get('hello-world/{text?}', function ($text = null) {
+        broadcast(new HelloWorldFired($text));
     });
 });

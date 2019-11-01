@@ -21,9 +21,9 @@ class HelloWorldFired implements ShouldBroadcast
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($text = null)
     {
-        $this->data = 'Hello World!';
+        $this->data = $text ?? 'Hello World!';
     }
 
     /**
