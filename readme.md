@@ -24,7 +24,7 @@ npm run laravel-echo-server
 
 # Unix Terminal 2
 redis-cli
-subscribe HelloWorldChannel
+psubscribe *
 ```
 
 Now Open a web browser and access: *http://localhost:8000/fire/hello-world*
