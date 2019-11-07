@@ -1,0 +1,16 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "A node server that subscribes to redis channels and emits data through sockets.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server.js"
+  },
+  "author": "joaorbrandao",
+  "license": "MIT",
+  "dependencies": {
+    "ioredis": "^4.14.1",
+    "socket.io": "^2.3.0"
+  }
+}
