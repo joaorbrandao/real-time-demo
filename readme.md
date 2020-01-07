@@ -1,5 +1,7 @@
-# Real Time Demo
-<img src="support_apps/samples/real_time_demo_banner.png">
+
+<h1 align="center">
+    <img src="support_apps/samples/real_time_demo_banner.png"/>
+</h1>
 This is a basic Laravel project to show how you can setup a real time system.
 
 ## Setup
