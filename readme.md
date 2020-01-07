@@ -1,4 +1,5 @@
 # Real Time Demo
+<img src="support_apps/samples/real_time_demo_banner.png">
 This is a basic Laravel project to show how you can setup a real time system.
 
 ## Setup
